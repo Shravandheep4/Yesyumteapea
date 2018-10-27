@@ -37,7 +37,7 @@ while retries<5:
         print("Logged in Successfully\n")
         break
 else:
-    print("Too many retries. Make sure you are entering the right set of credentials")
+    print("Too many retries. Make sure you are entering the right set of credentials ")
 
 #Sender and Receiver information
 email_sender = username
