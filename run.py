@@ -70,6 +70,7 @@ while(bool_attach=='y'):
         continue
 
     attachment = open(filename, "rb")
+    filename = filename.split('/')[-1]
 
     part = MIMEBase('application','octet-stream')
     part.set_payload(attachment.read())
