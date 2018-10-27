@@ -4,12 +4,19 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
 
-#Timer
-#Multiple Attachments
+### Default way to get the password is through a prompt message, Feel free to change
+#os.environ['PASSWD']   Set up an environment variable
+#sys.argv[1:]   Get the password from the argument list
 
 
-#os.environ['PASSWD']
-#sys.argv[1:]
+
+### TO BE ADDED IN THE FUTURE
+# 1. Timer
+# 2. Multiple SMTP Servers
+# 3. HTML as the body   (This can be changed by simply changing the MIMEText parameter to html from plain)
+
+
+
 
 #Credentials
 username = input("Email id: ")
@@ -27,7 +34,7 @@ message['To'] = ", ".join(email_recipients)
 message['Subject'] = Subject
 
 while True:
-    body = str(input("Body : "))
+    body = str(input("\nBody : "))
     if(str(input("\nIs this the message you want to send Y/[N]?  "))[0].lower()=='y'):
         break
 
