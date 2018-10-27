@@ -1,0 +1,348 @@
+12	012.net.il
+191	mail.191.biz
+191.it	mail.191.it
+Access4Less	smtp.access4less.net
+Active Network	smtp.activenetwork.it
+Actrix Networks	mail.actrix.co.nz
+Adelphia	mail.adelphia.net
+akfree	smtp.akfree.it
+albacom	smpt.albacom.net
+Albacom	relay.albacom.net
+Albacom	smtp.albacom.net
+alcotek	smtp.alcotek.it
+alice	out.aliceposta.it
+aliceposta.it	mail.tin.it
+alise	outmail.f2s.com
+AOL	smtp.aol.com
+Arnet	smtp.arnet.com.ar
+Aruba	smtp.aruba.it
+AT & T Wireless	smtp.attwireless.net
+AT & T Worldnet	imailhost.worldnet.att.net
+atlanet	smtp.atlavia.it
+atlanet	smtp.weblinea.it
+Auna	smtp.auna.com
+Bahrain Telecommunications Company	batelco.com.bh
+Barak I.T.C	mail.barak.net.il
+basilicatanet.it	mail.basilicatanet.it
+bella.ci	bella.ci
+Bellsouth	mail.bellsouth.net
+Bezeq International	mail.bezeqint.net
+Bezeqint	mail.bezeqint.net
+Bitstop	pangasinan.com
+Blu.it	smtp.blu.it
+Bluebottle	mail.bluebottle.com
+bluelight.com	smtp.mybluelight.com
+Bluewin	mail.bluewin.ch
+BlueYonder	smtp.blueyonder.co.uk
+bol.com.br	smtp.bol.com.br
+BRTURBO	smtp.brturbo.com.br
+BT Internet	mail.btinternet.com
+BT Openworld	mail.btopenworld.com
+BTClick	smtp.btclick.com
+BTTB	mail.bttb.net.bd
+BusinessServe	smtp.businessserve.co.uk
+Cable One	mail.cableone.net
+Cableinet	smtp.blueyonder.co.uk
+Caiway	smtp.caiway.nl
+Callsouth - Broadband	smtp2.callsouth.net.nz
+Callsouth - Dial up	smtp.callsouth.net.nz
+Cantv.net	mail.cantv.net
+cegetel	smtp.cegetel.net
+Chariot Netconnect	mail.vic.chariot.net.au
+charter	pop.charter.net
+Charter	mail.charter.net
+cheapnet	smtp.cheapnet.it
+chello.pl	mail.chello.pl
+ciaoweb	ciaosmtp.ciaoweb.it
+Cingular	smtp.mymmode.com
+Ciudad	smtp.ciudad.com.ar
+Claranet	relay.clara.net
+Clear Net	smtp.clear.net.nz
+click21	smtp.click21.com.br
+Club-Internet	smtp.club-internet.fr
+collegeclub	collegeclub.com
+Colt.net (Germany)	smtp.ipmail.colt.net
+Columbia Power and Water	mail.cpws.net
+Comcast	smtp.comcast.net
+Cox - Central	smtp.central.cox.net
+Cox - East	smtp.east.cox.net
+Cox - West	smtp.west.cox.net
+Cultura	smtp.cultura.com.br
+CWCom	smtp.ntlworld.com
+Datamat	mail.datamat.it
+Demon	post.demon.co.uk
+Digitel Italia	smtp.etmail.it
+Dinajpur	www.dinajpur.biz
+Dream Net Internet	mail.dreamnet.co.nz
+Earth Link	smtpauth.earthlink.net
+Easynet	smtp.easynet.co.uk
+eircom.net	mail2.eircom.net
+Elitel	smtp.elitel.biz
+Email.it	smtp.email.it
+Euronet NL	smtp.euronet.nl
+everybodycanadd	itsverybad
+Excite	smtp.tiscali.it
+EzySurf	smtp.ezysurf.co.nz
+FastMail	mail.messagingengine.com
+fastweb	pop.fastwebnet.it
+Fastweb	mailbus.fastweb.it
+Fastweb	smtp.fastweb.it
+Fastweb	smtp.fastwebnet.it
+fibertel.com.ar	smtp.fibertel.com.ar
+Free	smtp.free.fr
+Free Telecom	smtp.free.fr
+Freedom2surf	outmail.f2s.com
+Freemail	smtp.freemail.it
+freemail.it	mail.freemail.it
+freemail.it (supereva)	mail.freemail.it
+freenet	mx.freenet.de
+freenet.de	mx.freenet.de
+Freeserve	smtp.freeserve.co.uk
+Galactica.it	smtp.galactica.it
+Genie	mail.genie.co.uk
+GIGA	smtp.giga.net.tw
+Globe Net Communications	smtp.globe.net.nz
+gmail	smtp.gmail.com
+GMX	mail.gmx.net
+Go Daddy	smtpout.secureserver.net
+go.com	smtp.go.com
+Haier Electronics	smtp.haier-electronics.com
+Hinet	msa.hinet.net
+HiNet	ms1.hinet.net
+hotmail (Please see Windows Live Homtail)	mx2.hotmail.com
+HOTMAIL (Please see Windows Live Homtail)	hotmail.co.uk
+Hotmail.com (Please see Windows Live Homtail)	mx2.hotmail.com
+Hotmail.com (Please see Windows Live Homtail)	mx1.hotmail.com
+Hotmail.com (Please see Windows Live Homtail)	mx1.hotmail.com
+HotPOP.com	smtp.hotpop.com
+I4U Internet Services	mail.i4u.net.nz
+ic24	smtp.ic24.net
+IG	smtp.ig.com.br
+IHUG	smtp.ihug.co.nz
+INET	inet.it
+Infinito	mail.infinito.it
+InfoStructure -- GRR Technology	smtp.grrtech.com
+InfoStructure -- InfoStructure	smtp.mind.net
+InfoStructure -- Klamath Falls Internet	smtp.kfalls.net
+InfoStructure -- Medford Internet	smtp.medford.net
+InsightBB	mail.insightbb.com
+Interbusiness (TI Easynet)	mail1.cs.interbusiness.it
+INTERFREE	mail.interfree.it
+Internet Zahav	sout.zahav.net.il
+internetlibero	smtp.internetlibero.it
+inWind	mail.inwind.it
+IOL	mail.iol.it
+Iomart	smtp.domain.ext
+IPrimus Australia	smtp.iprimus.com.au
+Iprolink	smtp.iprolink.co.nz
+istruzione.it	istruzione.it
+ItalyMAIL	mail.italymail.biz
+ixpres.com	smtp.ixpres.com
+jumpy	mail.jumpy.it
+Juno	smtp.juno.com
+Katamail	smtp.katamail.com
+Kataweb	smtp.katamail.com
+la poste	smtp.laposte.net
+Le neuf	smtp.neuf.fr
+Libero	mail.libero.it
+Lillinet	smtp.weblinea.it
+Lineone	smtp.lineone.net
+Lycos	smtp.lycos.co.uk
+lycos.it	smtp.lycos.it
+Mac.com	smtp.mac.com
+Madasafish	smtp.madasafish.com
+mail.quizil.net	mail.quizil.net
+mail.ru	smtp.mail.ru
+Mailsnare	mail.mailsnare.net
+Maktoob Mail	mira0.maktoob.com
+McLink	mail.mclink.it
+Mediacom	mail.mchsi.com
+Mistral	smtp.mistral.co.uk
+Momax	smtp.momax.it
+ms15.hinet.net	ms15.hinet.net
+msoft.it	smtp.weblinea.it
+mtel	mail.mtel.net
+NamesToday	smtp.namestoday.ws
+NamesToday	smtp.namestoday.ws
+nerim.net	astralblue@nerim.net
+netcabo	smtp.netcabo.pt
+Netexplora Chile	mail.netexplora.com
+Netlink	mail.netlink.co.nz
+netscape	smtp.isp.netscape.com
+Netscapeonline	mailhost.netscapeonline.co.uk
+netvigator	mail.netvigator.com
+Netvisão (Portugal)	mail.netvisao.pt
+Netvisão (Portugal)	mail.netvisao.pt
+NetZero.com	smtp.netzero.com
+neuf telecom	smtp.neuf.fr
+NGI	smtp.ngi.it
+Nildram	smtp.nildram.co.uk
+Noos	smtp.noos.fr
+novis (portugal)	mail.novis.pt
+ntl (uk)	smtp.ntlworld.com
+NTLWorld	smtp.ntlworld.com
+OneTel	mail.onetel.net.uk
+ono	wanadoo.fr
+oNo	smtp.ono.com
+Optonline (Cablevision's Optimum Online)	mail.optonline.net
+Orcon	mail.orcon.net.nz
+outgoing.verizon.net	tchrshelli
+P.C.T.S.	ns.pcts.sk
+Paradise Net	smtp.paradise.net.nz
+PCHome	smtp.pchome.com.tw
+Pipex	smtp.dsl.pipex.com
+Pipex	smtp.dial.pipex.com
+pixius	smtp.citilink.com
+Post Man	mail.postman.net
+Poste.it	relay.poste.it
+postino.it	smtp.postino.it
+Previdencia	kiwi.previdencia.gov.br
+prodigy	xasa.com
+Prodigy(TELMEX)(México)	smtp.prodigy.net.mx
+promo.it	smtp.promo.it
+Purplenet	smtp.purplenet.co.uk
+Quipo	quipo.it
+R (cable Galicia)	smtp.mundo-r.com
+Radio Deejay Mail	smtp.deejaymail.it
+RCP (PERU)	amauta.rcp.net.pe
+Reteitaly	smtp.reteitaly.com
+Rogers	smtp.broadband.rogers.com
+RunBox	smtp.runbox.com
+Sapo (Portugal)	mx.sapo.pt
+SBC Global (Yahoo Powered)	smtp.snet.yahoo.com
+SBC Global (Yahoo Powered)	smtp.wans.yahoo.com
+SBC Global (Yahoo Powered)	smtp.swbell.yahoo.com
+SBC Global (Yahoo Powered)	smtp.ameritech.yahoo.com
+SBC Global (Yahoo Powered)	smtp.flash.yahoo.com
+SBC Global (Yahoo Powered)	smtp.nvbell.yahoo.com
+SBC Global (Yahoo Powered)	smtp.pacbell.yahoo.com
+SBC Global (Yahoo Powered)	smtp.prodigy.yahoo.com
+SBC Global (Yahoo Powered)	smtp.sbcglobal.yahoo.com
+SBC Yahoo DSL	smtp.sbcglobal.yahoo.com
+sbcyahoo.dsl	smtp.sbcglobal.yahoo.com
+Scarlet or Scarlet.be	smtp.scarlet.be
+Screaming.Net	smtp.tiscali.co.uk
+SFR (French mobile telephone)	smtp-auth.sfr.fr
+Shylex Telecomunicaciones	smtp.shylex.net
+SiFree.it	smtp.simail.it
+sify.com	mail.satyam.net.in
+skynet	relay.skynet.be
+Skynet.be	relay.skynet.be
+Slingshot	smtp.slingshot.co.nz
+softhome.net	mail.softhome.net
+SouthNet	smtp.southnet.co.nz
+Southwestern Bell	mail.swbell.net
+SprintPCS	smtp.sprintpcs.com
+Spymac	mail.spymac.com
+StofaNet.dk	mail1.stofanet.dk
+sunrise (CH)	smtp.sunrise.ch
+Supanet	smtp.supanet.com
+supereva	mail.supereva.it
+SuperFree.it	smtp.superfree.it
+sympatico	smtp1.sympatico.ca
+Tag Comunicazioni	64.94.0.31
+TalkTalk	smtp.TalkTalk.net
+Tariffe.it	smtp.tariffenet.it
+TDC	backup-mx.post.tele.dk
+tele2.fr	smtp.tele2.fr
+tele2.it	smtp.tele2.it
+Tele2Internet	virtual.everyday.com
+telecom	mail.cs.interbusiness.it
+Telecom (Alice)	mail.tin.it
+Telecom ADSL (Business)	mail.191.it
+Telecom ADSL (Business)	smtp.191.it
+telecom italia	191.it
+Telecom Smart	mail.tuttopmi.it
+Telecom Xtra	smtp.xtra.co.nz
+Teleconomy Internet	mail.191.it
+TELEDISNET.BE	mail.teledisnet.be
+telefonica	smtp.telefonica.net
+Telenet (belgium)	uit.telenet.be
+telenet(belgium)	uit.telenet.be
+telepac	smtp.telepac.pt
+Telepac ADSL (Portugal)	smtp.telepac.pt
+telewest	smtp.blueyonder.co.uk
+Telewest	smtp.blueyonder.co.uk
+telkom	smpt.telkom.net
+Telkomsa.net	smtp.telkomsa.net
+Telus	smtp.telus.net
+Telus.net	mail.telus.net
+Telvia.it	smtp.telvia.it
+Terra	smtp.terra.es
+Terra - BR	smtp.sao.terra.com.br
+Terra - BR - Recife	smtp.rec.terra.com.br
+Terra - España	mailhost..terra.es
+Terra - España	smtp.mailhost.terra.es
+Terra - España	smtp.mailhost.terra.es
+Tesconet	mail.tesco.net
+TIM.it	mail.posta.tim.it
+timenet ADSL	smtp2.xdslnet.it
+TimeWarner	(Unknown At This Time)
+Tin.it	out.virgilio.it
+TIN.IT free (funziona con Alice)	mail.clubnet.tin.it
+Tiscali	smtp.tiscali.it
+Tiscali	smtp.tiscali.co.uk
+Tiscali.de	smtp.tiscali.de
+tiscali.es	smtp.tiscali.es
+Tiscali.nl	smtp.tiscali.nl
+Tnet	mail.tnet.it
+t-online	mailto.t-online.de
+Totalise	mail.totalise.co.uk
+tre	smtp.tre.it
+Tugamail	mail.tugamail.com
+TuttoGratis.it	smtp.eutelia.it
+Tvtel	tvtel.pt
+UKGateway	smtp.ukgateway.net
+unitedemailsystems	unitedemailsystems.com
+unitedemailsystems	smtp.unitedemailsystems.com
+UOL	smtp.uol.com.br
+UOL Sinectis Argentina	relay.uolsinectis.com.ar
+US Cable	smtp.warpdriveonline.com
+USA.net	smtp.postoffice.net
+utenti interbusiness telecom	mail.cs.interbusiness.it
+Utopia Systems	smtp.utopiasystems.net
+utu.fi	smtp.utu.fi
+V 21	smtp.v21.co.uk
+Verizon DSL	outgoing.verizon.net
+videobank	videobank.it
+virgilio	out.virgilio.it
+Virgin	smtp.virgin.net
+Vispa	mail.vispa.com
+Vivacity	pop.Vivacity.it
+Vodafone.it	smtpmail.vodafone.it
+Waitrose	smtpmail.waitrose.com
+wanadoo	smtp.wanadooadsl.net
+wanadoo (France)	smtp.wanadoo.fr
+wanadoo España	smtp.wanadoo.es
+wanadoo.nl	smtp.wanadoo.nl
+Web.de	smtp.web.de
+Webmail.is	smtp.emailsrvr.com
+Which Online	mail.which.net
+Windows Live Hotmail	smtp.live.com
+wooow.it	smtp.wooow.it
+World-Net	mail.world-net.co.nz
+Worldonline	smtp.tiscali.co.uk
+www.gmail.com	smtp.gmail.com
+www.qos.net.il	mail.qos.net.il
+www.tol.it	smtp-tol.it
+www.tol.it	smtp.tol.it
+X-Privat	mail.x-privat.org
+XS4ALL	smtp.xs4all.nl
+xs4all.nl	mail.xs4all.nl
+Xtra	smtp.xtra.co.nz
+Ya.com	smtp.ya.com
+Ya.com ADSL	smtp2.adsl.ya.com
+yahoo	yahoo.es
+Yahoo	smtp.mail.yahoo.com
+yahoo	smtp.mail.yahoo.com.cn
+Yahoo (autentication needed)	smtp.mail.yahoo.com
+Yahoo Argentina	smtp.mail.yahoo.com.ar
+yahoo.co.uk	smtp.mail.yahoo.co.uk
+yahoo.com.tw	smtp.mail.yahoo.com.tw
+yahoo.com.tw	stmp.mail.yahoo.com
+Yahoo.de	smtp.mail.yahoo.de
+yahoo.es	smtp.correo.yahoo.es
+yahoo.it	smtp.mail.yahoo.it
+ZeelandNet	mail.zeelandnet.nl
+zero.ad.jp	zero.ad.jp
+Zonnet	smtp.zonnet.nl
