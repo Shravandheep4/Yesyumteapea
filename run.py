@@ -16,18 +16,35 @@ from email import encoders
 # 3. HTML as the body   (This can be changed by simply changing the MIMEText parameter to html from plain)
 
 
-
+#Connecting to the server
+retries = 0
+server = smtplib.SMTP('smtp.gmail.com', 587)
+server.ehlo()
+server.starttls()
 
 #Credentials
-username = input("Email id: ")
-passwd = getpass.getpass("password: ")
+while retries<5:
+    username = input("Email id: ")
+    passwd = getpass.getpass("password: ")
+
+    try:
+        server.login(username, passwd)
+    except Exception as err:
+        print(str(err).split("'")[1])
+        retries+=1
+        continue
+    else:
+        print("Logged in Successfully\n")
+        break
+else:
+    print("Too many retries. Make sure you are entering the right set of credentials")
 
 #Sender and Receiver information
 email_sender = username
 email_recipients = ["shravandheep4@gmail.com"]
 Subject = "Testing script"
 
-# filling the text part
+# Message transfer detail
 message = MIMEMultipart()
 message['From'] = email_sender
 message['To'] = ", ".join(email_recipients)
@@ -35,14 +52,14 @@ message['Subject'] = Subject
 
 while True:
     body = str(input("\nBody : "))
-    if(str(input("\nIs this the message you want to send Y/[N]?  "))[0].lower()=='y'):
+    if(str(input("\nConfirm Y/[N]?  "))[0].lower()=='y'):
         break
 
 message.attach(MIMEText(body,'plain'))
 
 
 #Attachments
-bool_attach = str(input("Do you want to make attachments? Y/[N] :  "))[0].lower()
+bool_attach = str(input("Do you want to attach a file Y/[N] ? :  "))[0].lower()
 num_attach = 0
 
 while(bool_attach=='y'):
@@ -64,22 +81,12 @@ while(bool_attach=='y'):
 
     num_attach+=1
     print(f"{num_attach} attachment(s) made.")
-    bool_attach = str(input("Do you want to make one more attachment Y/[N]?  :  "))[0].lower()
+    bool_attach = str(input("Do you want to attach one more file Y/[N]?  :  "))[0].lower()
 
 #Final Message
 text = message.as_string()
 
-#Connecting to the server
-server = smtplib.SMTP('smtp.gmail.com', 587)
-server.ehlo()
-server.starttls()
-try:
-    server.login(username, passwd)
-except Exception as err:
-    print(str(err).split("'")[1])
-else:
-    print('Sending ...')
-    server.sendmail(email_sender, email_recipients, text)
-    print('Sent to the recipient(s)')
-finally:
-    server.quit()
+print('Sending ...')
+server.sendmail(email_sender, email_recipients, text)
+print('Sent to the recipient(s)')
+server.quit()
