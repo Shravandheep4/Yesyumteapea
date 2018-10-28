@@ -41,8 +41,31 @@ else:
 
 #Sender and Receiver information
 email_sender = username
-email_recipients = ["shravandheep4@gmail.com"]
-Subject = "Testing script"
+email_recipients = []
+Subject = str(input("Subject : "))
+
+print("Enter the recipient(s) mail address: ")
+
+while True:
+    recipient = str(input())
+
+    if(recipient.strip()=="" or recipient.strip()=='\n'):
+        if len(email_recipients)==0:
+            print("You have to add at least one recipient!")
+            continue
+        break
+
+    if "," in recipient:
+        recipient = recipient.split(",")
+        recipient = [removeSpaces.strip() for removeSpaces in recipient]
+        email_recipients.append(recipient)
+    else:
+        email_recipients.append(recipient.strip())
+
+    print(str(len(email_recipients)) + " recipient(s) added.")
+
+print(str(len(email_recipients)) + " recipient(s) in total")
+
 
 # Message transfer detail
 message = MIMEMultipart()
