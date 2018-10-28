@@ -4,16 +4,19 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
 
+### You can specify your mail-id as the default id if you're the only one who's going to use this script
+
 ### Default way to get the password is through a prompt message, Feel free to change
-#os.environ['PASSWD']   Set up an environment variable
-#sys.argv[1:]   Get the password from the argument list
+#   os.environ['ENVIRONMENT_VARIABLE_NAME_GOES_HERE']   Set up an environment variable
+#   sys.argv[1:]   Get the password from the argument list
 
 
 
 ### TO BE ADDED IN THE FUTURE
 # 1. Timer
-# 2. Multiple SMTP Servers
+# 2. SMTP Server compatibility
 # 3. HTML as the body   (This can be changed by simply changing the MIMEText parameter to html from plain)
+# 4. Auto-generated message
 
 
 #Connecting to the server
@@ -38,6 +41,7 @@ while retries<5:
         break
 else:
     print("Too many retries. Make sure you are entering the right set of credentials ")
+    quit()
 
 #Sender and Receiver information
 email_sender = username
@@ -75,14 +79,25 @@ message['Subject'] = Subject
 
 while True:
     body = str(input("\nBody : "))
-    if(str(input("\nConfirm Y/[N]?  "))[0].lower()=='y'):
+    try:
+        confirm = str(input("\nConfirm Y/[N]?  "))[0].lower()
+    except IndexError:
+        confirm = 'N'
+        pass
+    if(confirm=='y'):
         break
 
 message.attach(MIMEText(body,'plain'))
 
 
 #Attachments
-bool_attach = str(input("Do you want to attach files Y/[N] ? :  "))[0].lower()
+
+try:
+    bool_attach = str(input("Do you want to attach files Y/[N] ? :  "))[0].lower()
+except IndexError as err:
+    bool_attach='N'
+    pass
+
 num_attach = 0
 
 while(bool_attach=='y'):
@@ -99,7 +114,12 @@ while(bool_attach=='y'):
         print("Incorrect Path, Try again\n")
         continue
 
-    attachment = open(filename, "rb")
+    try:
+        attachment = open(filename, "rb")
+    except Exception as error:
+        print(str(error))
+        continue
+
     filename = filename.split('/')[-1]
 
     part = MIMEBase('application','octet-stream')
@@ -114,10 +134,10 @@ while(bool_attach=='y'):
     print(f"{num_attach} attachment(s) made.")
 
 print(f"\n{num_attach} attachment(s) in total.")
+
 #Final Message
-text = message.as_string()
 
 print('Sending ...')
-server.sendmail(email_sender, email_recipients, text)
+server.sendmail(email_sender, email_recipients, message.as_string())
 print('Sent to the recipient(s)')
 server.quit()
