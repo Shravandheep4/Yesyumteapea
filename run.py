@@ -82,14 +82,21 @@ message.attach(MIMEText(body,'plain'))
 
 
 #Attachments
-bool_attach = str(input("Do you want to attach a file Y/[N] ? :  "))[0].lower()
+bool_attach = str(input("Do you want to attach files Y/[N] ? :  "))[0].lower()
 num_attach = 0
 
 while(bool_attach=='y'):
     filename = str(input("File-path: "))
 
+    if filename.strip()=="" or filename.strip()=='\n':
+        bool_attach = 'N'
+
+        if num_attach==0:
+            print("No file has been attached.")
+        break
+
     if not os.path.exists(filename):
-        print("Incorrect Path, Try again")
+        print("Incorrect Path, Try again\n")
         continue
 
     attachment = open(filename, "rb")
@@ -105,8 +112,8 @@ while(bool_attach=='y'):
 
     num_attach+=1
     print(f"{num_attach} attachment(s) made.")
-    bool_attach = str(input("Do you want to attach one more file Y/[N]?  :  "))[0].lower()
 
+print(f"\n{num_attach} attachment(s) in total.")
 #Final Message
 text = message.as_string()
 
