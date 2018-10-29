@@ -19,17 +19,18 @@ from email import encoders
 # 4. Auto-generated message
 
 
-#Connecting to the server
+#Connect to the server
 retries = 0
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.ehlo()
 server.starttls()
 
-#Credentials
+#Credential
 while retries<5:
     username = input("Email id: ")
     passwd = getpass.getpass("password: ")
 
+#Authentication
     try:
         server.login(username, passwd)
     except Exception as err:
@@ -41,7 +42,9 @@ while retries<5:
         break
 else:
     print("Too many retries. Make sure you are entering the right set of credentials ")
+    server.quit()
     quit()
+
 
 #Sender and Receiver information
 email_sender = username
@@ -83,7 +86,6 @@ while True:
         confirm = str(input("\nConfirm Y/[N]?  "))[0].lower()
     except IndexError:
         confirm = 'N'
-        pass
     if(confirm=='y'):
         break
 
@@ -91,12 +93,10 @@ message.attach(MIMEText(body,'plain'))
 
 
 #Attachments
-
 try:
     bool_attach = str(input("Do you want to attach files Y/[N] ? :  "))[0].lower()
 except IndexError as err:
     bool_attach='N'
-    pass
 
 num_attach = 0
 
@@ -120,6 +120,7 @@ while(bool_attach=='y'):
         print(str(error))
         continue
 
+    #Works on linux. For windows, split the path by using back-slash '\'
     filename = filename.split('/')[-1]
 
     part = MIMEBase('application','octet-stream')
@@ -135,8 +136,7 @@ while(bool_attach=='y'):
 
 print(f"\n{num_attach} attachment(s) in total.")
 
-#Final Message
-
+#Final mail transfer
 print('Sending ...')
 server.sendmail(email_sender, email_recipients, message.as_string())
 print('Sent to the recipient(s)')
